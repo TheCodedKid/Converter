@@ -1,0 +1,15 @@
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter.csprojAssemblyReference.cache
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\MainWindow.g.cs
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\App.g.cs
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\MainWindow.baml
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter.Properties.Resources.resources
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter.csproj.GenerateResource.cache
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter.csproj.CoreCompileInputs.cache
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter V1_MarkupCompile.cache
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter V1_MarkupCompile.lref
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\bin\Debug\Converter V1.exe.config
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\bin\Debug\Converter V1.exe
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\bin\Debug\Converter V1.pdb
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter V1.g.resources
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter V1.exe
+C:\Users\Sam's Pc\Desktop\C# Work\Converter\Converter\obj\Debug\Converter V1.pdb

@@ -1,0 +1,20 @@
+﻿<Window x:Class="Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Converter"
+        mc:Ignorable="d"
+        Title="Converter V1 (Work in Progress)" Height="254.828" Width="800">
+    <Grid Margin="0,0,0,1">
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="129" Margin="68,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" TextChanged="text1_TextChanged"/>
+        <TextBox x:Name="text2" HorizontalAlignment="Left" Height="129" Margin="480,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+        <Button x:Name="octalButton" Content="Octal" HorizontalAlignment="Left" Margin="353,110,0,0" VerticalAlignment="Top" Width="75" Click="octClick"/>
+        <Button x:Name="hexButton" Content="Hex" HorizontalAlignment="Left" Margin="353,135,0,0" VerticalAlignment="Top" Width="75" Click="hexClick"/>
+        <Button x:Name="binaryButton" Content="Binary" HorizontalAlignment="Left" Margin="353,160,0,0" VerticalAlignment="Top" Width="75" Click="binClick"/>
+        <Label Content="A work in progress by Samuel Raumin" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="132" FontFamily="Sitka Display" FontSize="8"/>
+        <Label Content="Input (Decimal Only)" HorizontalAlignment="Left" Margin="121,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="Output" HorizontalAlignment="Left" Margin="582,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="Convert" HorizontalAlignment="Left" Margin="364,61,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
