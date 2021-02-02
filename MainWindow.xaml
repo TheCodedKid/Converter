@@ -7,14 +7,20 @@
         mc:Ignorable="d"
         Title="Converter V1 (Work in Progress)" Height="254.828" Width="800">
     <Grid Margin="0,0,0,1">
-        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="129" Margin="68,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226" TextChanged="text1_TextChanged"/>
-        <TextBox x:Name="text2" HorizontalAlignment="Left" Height="129" Margin="480,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
-        <Button x:Name="octalButton" Content="Octal" HorizontalAlignment="Left" Margin="353,110,0,0" VerticalAlignment="Top" Width="75" Click="octClick"/>
-        <Button x:Name="hexButton" Content="Hex" HorizontalAlignment="Left" Margin="353,135,0,0" VerticalAlignment="Top" Width="75" Click="hexClick"/>
-        <Button x:Name="binaryButton" Content="Binary" HorizontalAlignment="Left" Margin="353,160,0,0" VerticalAlignment="Top" Width="75" Click="binClick"/>
-        <Label Content="A work in progress by Samuel Raumin" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="132" FontFamily="Sitka Display" FontSize="8"/>
-        <Label Content="Input (Decimal Only)" HorizontalAlignment="Left" Margin="121,40,0,0" VerticalAlignment="Top"/>
-        <Label Content="Output" HorizontalAlignment="Left" Margin="582,40,0,0" VerticalAlignment="Top"/>
-        <Label Content="Convert" HorizontalAlignment="Left" Margin="364,61,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="129" Margin="122,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226"/>
+        <TextBox x:Name="text2" HorizontalAlignment="Left" Height="129" Margin="518,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+        <Button x:Name="octalButton" Content="Octal" HorizontalAlignment="Left" Margin="391,99,0,0" VerticalAlignment="Top" Width="75" Click="octClick"/>
+        <Button x:Name="hexButton" Content="Hex" HorizontalAlignment="Left" Margin="391,124,0,0" VerticalAlignment="Top" Width="75" Click="hexClick"/>
+        <Button x:Name="binaryButton" Content="Binary" HorizontalAlignment="Left" Margin="391,149,0,0" VerticalAlignment="Top" Width="75" Click="binClick"/>
+        <Label Content="A work in progress by Samuel Raumin" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" FontFamily="Sitka Display" FontSize="11"/>
+        <Label Content="Input" HorizontalAlignment="Left" Margin="216,42,0,0" VerticalAlignment="Top"/>
+        <Label Content="Output" HorizontalAlignment="Left" Margin="620,42,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Convert_Tag" Content="Convert" HorizontalAlignment="Left" Margin="402,63,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="decimalButton" Content="Decimal" HorizontalAlignment="Left" Margin="391,174,0,0" VerticalAlignment="Top" Width="75" Click="decClick"/>
+        <Button x:Name="octalSelectButton" Content="Octal" HorizontalAlignment="Left" Margin="17,99,0,0" VerticalAlignment="Top" Width="75" Click="octSelectClick"/>
+        <Button x:Name="hexSelectButton" Content="Hex" HorizontalAlignment="Left" Margin="17,124,0,0" VerticalAlignment="Top" Width="75" Click="hexSelectClick"/>
+        <Button x:Name="binarySelectButton" Content="Binary" HorizontalAlignment="Left" Margin="17,149,0,0" VerticalAlignment="Top" Width="75" Click="binSelectClick"/>
+        <Button x:Name="decimalSelectButton" Content="Decimal" HorizontalAlignment="Left" Margin="17,174,0,0" VerticalAlignment="Top" Width="75" Click="decSelectClick"/>
+        <Label x:Name="Input_Type_Tag" Content=" Input Type" HorizontalAlignment="Left" Margin="17,63,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
