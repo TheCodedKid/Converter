@@ -19,9 +19,16 @@ namespace Converter
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
+    /* 
+     * Look into Big Integer conversion
+     * Look into "out of range expection" due to recall of parseString()
+     * Consider new way to parse through input (better if else conditions)
+     */
     public partial class MainWindow : Window
     {
-        //Globals
+        //char[] delim = { ' ', ',', ':', '\t' }; for later use
         ArrayList parseInput = new ArrayList();
         public MainWindow()
         {
@@ -31,54 +38,50 @@ namespace Converter
         //type reference: 10 = dec, 16 = hex, 8 = oct, 2 = bin
 
         public void parseString(int type)
-        //Currently parsing to 8 digits for safety reasons, am considering max bit storage size for int type for the future
         {
-            long temp = 0;
-            //String tempString = text1.Text;
-            int n = 5; //length of processed per slot in arraylist
-            for(int i = 0; i < text1.Text.Length; i += n)
+            text1.Text += ','; //cheeky, I know
+            string temp = "";
+            for(int i = 0; i < text1.Text.Length; i++)
             {
-                if (i + n <= text1.Text.Length)
+                if(text1.Text[i] != ',')
                 {
-                    temp = Convert.ToInt64(text1.Text.Substring(i, n), type);
+                    temp += text1.Text[i];
                 }
-                else if (i + n > text1.Text.Length)
+                else if(text1.Text[i] == ',')
                 {
-                    temp = Convert.ToInt64(text1.Text.Substring(i, (text1.Text.Length % n)), type);
+                    parseInput.Add(Convert.ToInt64(temp, type));
+                    temp = "";
                 }
-                parseInput.Add(temp);
-                temp = 0; //for checking, doesn't need to be here I think
             }
         }
 
-        private void returnString()
+        private void returnString(int type)
         {
             foreach(long output in parseInput)
             {
-                text2.Text += output;
+                text2.Text += Convert.ToString(output, type);
+                text2.Text += ", ";
             }
-            text2.Text += " ";
-            parseInput.Clear();
         }
 
         private void octClick(object sender, RoutedEventArgs e)
         {
-            returnString();
+            returnString(8);
         }
 
         private void hexClick(object sender, RoutedEventArgs e)
         {
-            returnString();
+            returnString(16);
         }
 
         private void binClick(object sender, RoutedEventArgs e)
         {
-            returnString();
+            returnString(2);
         }
 
         private void decClick(object sender, RoutedEventArgs e)
         {
-            returnString();
+            returnString(10);
         }
 
 
@@ -100,6 +103,17 @@ namespace Converter
         private void decSelectClick(object sender, RoutedEventArgs e)
         {
             parseString(10);
+        }
+
+        private void clearInputClick(object sender, RoutedEventArgs e)
+        {
+            parseInput.Clear();
+            text1.Text = "";
+        }
+
+        private void clearOutputClick(object sender, RoutedEventArgs e)
+        {
+            text2.Text = "";
         }
     }
 }
