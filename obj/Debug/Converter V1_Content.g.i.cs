@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("2466970-200.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("computer%20animation.png")]
 
 

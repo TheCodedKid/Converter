@@ -26,6 +26,8 @@ namespace Converter
      * Look into "out of range expection" due to recall of parseString()
      * Consider new way to parse through input (better if else conditions)
      */
+    
+    //type reference: 10 = dec, 16 = hex, 8 = oct, 2 = bin
     public partial class MainWindow : Window
     {
         //char[] delim = { ' ', ',', ':', '\t' }; for later use
@@ -34,8 +36,6 @@ namespace Converter
         {
             InitializeComponent();
         }
-
-        //type reference: 10 = dec, 16 = hex, 8 = oct, 2 = bin
 
         public void parseString(int type)
         {

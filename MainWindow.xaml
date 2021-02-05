@@ -5,24 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Converter"
         mc:Ignorable="d"
-        Title="Converter V1 (Work in Progress)" Height="254.828" Width="800">
+        Title="Converter V1.1" Height="254.828" Width="800">
     <Grid Margin="0,0,0,1">
-        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="129" Margin="122,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226"/>
-        <TextBox x:Name="text2" HorizontalAlignment="Left" Height="129" Margin="518,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
-        <Button x:Name="octalButton" Content="Octal" HorizontalAlignment="Left" Margin="391,99,0,0" VerticalAlignment="Top" Width="75" Click="octClick"/>
-        <Button x:Name="hexButton" Content="Hex" HorizontalAlignment="Left" Margin="391,124,0,0" VerticalAlignment="Top" Width="75" Click="hexClick"/>
-        <Button x:Name="binaryButton" Content="Binary" HorizontalAlignment="Left" Margin="391,149,0,0" VerticalAlignment="Top" Width="75" Click="binClick"/>
-        <Label Content="A work in progress by Samuel Raumin" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="180" FontFamily="Sitka Display" FontSize="11"/>
-        <Label Content="Input" HorizontalAlignment="Left" Margin="216,42,0,0" VerticalAlignment="Top"/>
-        <Label Content="Output" HorizontalAlignment="Left" Margin="620,42,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Convert_Tag" Content="Convert" HorizontalAlignment="Left" Margin="402,63,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="decimalButton" Content="Decimal" HorizontalAlignment="Left" Margin="391,174,0,0" VerticalAlignment="Top" Width="75" Click="decClick"/>
-        <Button x:Name="octalSelectButton" Content="Octal" HorizontalAlignment="Left" Margin="17,99,0,0" VerticalAlignment="Top" Width="75" Click="octSelectClick"/>
-        <Button x:Name="hexSelectButton" Content="Hex" HorizontalAlignment="Left" Margin="17,124,0,0" VerticalAlignment="Top" Width="75" Click="hexSelectClick"/>
-        <Button x:Name="binarySelectButton" Content="Binary" HorizontalAlignment="Left" Margin="17,149,0,0" VerticalAlignment="Top" Width="75" Click="binSelectClick"/>
-        <Button x:Name="decimalSelectButton" Content="Decimal" HorizontalAlignment="Left" Margin="17,174,0,0" VerticalAlignment="Top" Width="75" Click="decSelectClick"/>
-        <Label x:Name="Input_Type_Tag" Content=" Input Type" HorizontalAlignment="Left" Margin="17,63,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="ClearInput_Button" Content="Clear Input" HorizontalAlignment="Left" Margin="273,48,0,0" VerticalAlignment="Top" Width="75" Click="clearInputClick"/>
-        <Button x:Name="ClearOutput_Button" Content="Clear Output" HorizontalAlignment="Left" Margin="694,45,0,0" VerticalAlignment="Top" Width="75" Click="clearOutputClick"/>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="129" Margin="122,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226"/>
+        <TextBox x:Name="text2" HorizontalAlignment="Left" Height="129" Margin="518,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="251"/>
+        <Button x:Name="octalButton" Content="Octal" HorizontalAlignment="Left" Margin="391,72,0,0" VerticalAlignment="Top" Width="75" Click="octClick"/>
+        <Button x:Name="hexButton" Content="Hex" HorizontalAlignment="Left" Margin="391,97,0,0" VerticalAlignment="Top" Width="75" Click="hexClick"/>
+        <Button x:Name="binaryButton" Content="Binary" HorizontalAlignment="Left" Margin="391,122,0,0" VerticalAlignment="Top" Width="75" Click="binClick"/>
+        <Label Content="Input" HorizontalAlignment="Left" Margin="216,15,0,0" VerticalAlignment="Top"/>
+        <Label Content="Output" HorizontalAlignment="Left" Margin="620,15,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Convert_Tag" Content="Convert" HorizontalAlignment="Left" Margin="402,36,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="decimalButton" Content="Decimal" HorizontalAlignment="Left" Margin="391,147,0,0" VerticalAlignment="Top" Width="75" Click="decClick"/>
+        <Button x:Name="octalSelectButton" Content="Octal" HorizontalAlignment="Left" Margin="17,72,0,0" VerticalAlignment="Top" Width="75" Click="octSelectClick"/>
+        <Button x:Name="hexSelectButton" Content="Hex" HorizontalAlignment="Left" Margin="17,97,0,0" VerticalAlignment="Top" Width="75" Click="hexSelectClick"/>
+        <Button x:Name="binarySelectButton" Content="Binary" HorizontalAlignment="Left" Margin="17,122,0,0" VerticalAlignment="Top" Width="75" Click="binSelectClick"/>
+        <Button x:Name="decimalSelectButton" Content="Decimal" HorizontalAlignment="Left" Margin="17,147,0,0" VerticalAlignment="Top" Width="75" Click="decSelectClick"/>
+        <Label x:Name="Input_Type_Tag" Content=" Input Type" HorizontalAlignment="Left" Margin="17,36,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="ClearInput_Button" Content="Clear Input" HorizontalAlignment="Left" Margin="273,21,0,0" VerticalAlignment="Top" Width="75" Click="clearInputClick"/>
+        <Button x:Name="ClearOutput_Button" Content="Clear Output" HorizontalAlignment="Left" Margin="694,18,0,0" VerticalAlignment="Top" Width="75" Click="clearOutputClick"/>
+        <Image x:Name="uwu" HorizontalAlignment="Left" Height="26" Margin="756,191,0,0" VerticalAlignment="Top" Width="26" Source="Computer Animation.png"/>
     </Grid>
 </Window>

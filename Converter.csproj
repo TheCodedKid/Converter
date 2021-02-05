@@ -100,5 +100,8 @@
   <ItemGroup>
     <Resource Include="2466970-200.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Computer Animation.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
